@@ -24,20 +24,27 @@
             <form action="">
                 <label class="email" for="email">E-mail</label>
                 <br>
-                <input type="email" placeholder="Digite seu e-mail" name="email" id="email">
+                <div class="form mail">
+                    <img id="mailicon" src="images/mail.svg" alt="">
+                    <input type="email" placeholder="Digite seu e-mail" name="email" id="email">
+                </div>
                 <br>
                 <label class="pwd" for="password">Senha</label>
                 <br>
-                <input type="password" placeholder="Digite sua senha" name="pwd" id="pwd">
+                <div class="form pwd">
+                    <img id="pwdicon" src="images/lock.svg" alt="">
+                    <input type="password" placeholder="Digite sua senha" name="pwd" id="pwd">
+                    <img id="eyeicon" src="images/eye.svg" alt="">
+                </div>
 
                 <div class="footer1">
-                    <input type="checkbox" name="rememberme" id="rememberme"> Lembre-me
-                    <a href="">Esqueci minha senha</a>
+                    <input type="checkbox" name="rme" id="rme"> <p>Lembre-me</p>
+                    <a id="ems" href="">Esqueci minha senha</a>
                 </div>
 
                 <button type="submit">Entrar</button>
 
-                <div class="footer2">Não tem uma conta? <a href=""><b>Registre-se</b></a></div>
+                <div class="footer2">Não tem uma conta? <a id="b" href="">Registre-se</a></div>
 
             </form>
         </div>
