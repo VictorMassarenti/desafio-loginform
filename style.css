@@ -90,6 +90,8 @@ main {
     font-size: 1rem;
     line-height: 1.5rem;
 
+    border: none;
+
     color: var(--text-base);
 }
 
@@ -181,8 +183,16 @@ button {
     line-height: 1.7;
     text-transform: uppercase;
 
-    color:#473404;
+    cursor: pointer;
+    transition: filter 0.2s;
+    
+
+    color: #473404;
 }
+
+button:hover {
+    filter: brightness(0.9);
+  }
 
 .footer2 {
     display: flex;
